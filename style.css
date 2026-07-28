@@ -172,8 +172,10 @@ main {
 /* Buttons */
 .btn {
   display: block;
+  width: 100%;
   text-align: center;
   text-decoration: none;
+  font-family: inherit;
   font-weight: 800;
   font-size: 1.05rem;
   padding: 16px 20px;

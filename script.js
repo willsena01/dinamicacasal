@@ -26,8 +26,7 @@ document.querySelectorAll('.modal-overlay').forEach((overlay) => {
   const modal = document.getElementById('upsell-modal');
   if (!btn || !modal) return;
 
-  btn.addEventListener('click', (e) => {
-    e.preventDefault();
+  btn.addEventListener('click', () => {
     openModal(modal);
   });
 })();
