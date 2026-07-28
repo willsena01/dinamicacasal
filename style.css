@@ -125,18 +125,29 @@ main {
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.15);
-  border: 2px solid rgba(255,255,255,0.6);
+  background: var(--red);
+  border: 2px solid #fff;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  backdrop-filter: blur(2px);
   z-index: 2;
+  animation: play-btn-blink 1.3s infinite;
 }
 
-.video-player.is-playing .play-btn {
+@keyframes play-btn-blink {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(255, 45, 45, 0.7);
+    opacity: 1;
+  }
+  50% {
+    box-shadow: 0 0 0 16px rgba(255, 45, 45, 0);
+    opacity: 0.85;
+  }
+}
+
+.video-player.is-activated .play-btn {
   display: none;
 }
 

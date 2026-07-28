@@ -31,14 +31,21 @@ document.querySelectorAll('.modal-overlay').forEach((overlay) => {
   });
 })();
 
-// Exit-intent → show a last-chance offer before the lead leaves
+// Exit-intent → show a last-chance offer before the lead leaves the page
+// (not when the lead is just closing one of our own popups)
 (function exitIntent() {
   const modal = document.getElementById('exit-modal');
   if (!modal) return;
   let shown = false;
 
+  function otherModalOpen() {
+    return Array.from(document.querySelectorAll('.modal-overlay')).some(
+      (overlay) => overlay !== modal && !overlay.hidden
+    );
+  }
+
   function trigger() {
-    if (shown) return;
+    if (shown || otherModalOpen()) return;
     shown = true;
     openModal(modal);
   }
@@ -51,6 +58,11 @@ document.querySelectorAll('.modal-overlay').forEach((overlay) => {
   // Mobile: intercept the back button once
   history.pushState({ exitGuard: true }, '');
   window.addEventListener('popstate', () => {
+    if (otherModalOpen()) {
+      // The back-button press was just the mobile "close popup" gesture — restore the guard silently.
+      history.pushState({ exitGuard: true }, '');
+      return;
+    }
     if (!shown) {
       trigger();
       history.pushState({ exitGuard: true }, '');
@@ -73,7 +85,7 @@ document.querySelectorAll('.modal-overlay').forEach((overlay) => {
   }, 3000);
 })();
 
-// Hero video player
+// Hero video player — silent autoplay preview until the lead clicks to activate sound
 (function videoPlayer() {
   const player = document.getElementById('video-player');
   const video = document.getElementById('hero-video');
@@ -82,6 +94,8 @@ document.querySelectorAll('.modal-overlay').forEach((overlay) => {
   const progressBar = document.getElementById('progress-bar');
   const timeBadge = document.getElementById('video-time');
   if (!player || !video || !playBtn || !status || !progressBar) return;
+
+  let activated = false;
 
   function formatTime(seconds) {
     const s = Math.max(0, Math.floor(seconds || 0));
@@ -115,16 +129,32 @@ document.querySelectorAll('.modal-overlay').forEach((overlay) => {
     progressBar.style.width = (video.currentTime / video.duration) * 100 + '%';
   });
 
-  function togglePlay() {
-    if (video.paused) {
-      video.play();
-    } else {
-      video.pause();
+  function activate() {
+    if (activated) {
+      if (video.paused) video.play();
+      else video.pause();
+      return;
     }
+    activated = true;
+    player.classList.add('is-activated');
+    video.loop = false;
+    video.muted = false;
+    video.currentTime = 0;
+    video.play();
   }
 
-  playBtn.addEventListener('click', togglePlay);
-  video.addEventListener('click', togglePlay);
+  playBtn.addEventListener('click', activate);
+  video.addEventListener('click', activate);
+
+  // Silent looping preview — browsers allow autoplay when muted.
+  video.muted = true;
+  video.loop = true;
+  const playAttempt = video.play();
+  if (playAttempt && playAttempt.catch) {
+    playAttempt.catch(() => {
+      // Autoplay blocked by the browser — the blinking button still lets the lead start it manually.
+    });
+  }
 })();
 
 // Games carousels — smooth continuous auto-scroll
